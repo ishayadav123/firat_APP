@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple todo app with mern stack",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "nodemon server.js",
+    "client": "npm run start --prefix client"
+  },
+  "author": "isha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
